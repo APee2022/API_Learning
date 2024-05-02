@@ -15,6 +15,10 @@ app.use(router);
 app.get("/check", (req, res) => {
   res.send("learn about how to push code in Github");
 });
+
+app.get("/hello", (req, res) => {
+  res.send("hello");
+});
 // ####################################################################
 
 app.listen(port, () => {
